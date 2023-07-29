@@ -7,7 +7,7 @@
   padding: 0 10px;
   box-sizing: border-box;
 
-   @media (min-width: 520px) {
+  @media (min-width: 520px) {
     width: 100%;
     margin: 20px auto 0;
   }
@@ -22,7 +22,7 @@
   background-color: var(--basic-black);
   border: 1px solid var(--basic-black-2);
   border-radius: 10px;
-  box-shadow: 0px 27px 20px -20px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 27px 20px -20px rgba(0, 0, 0, 0.25);
   box-sizing: border-box;
 }
 
@@ -73,7 +73,6 @@
     border: none;
     cursor: pointer;
   }
-
 }
 
 //nav-menu__list
@@ -124,8 +123,9 @@
 }
 
 //menu logic
-.header-site--closed  {
-  :is(.nav-menu__list, .nav-menu__footer) {
+.header-site--closed {
+  :is(.nav-menu__list,
+      .nav-menu__footer) {
     display: none;
   }
 
