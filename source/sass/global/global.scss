@@ -7,7 +7,7 @@ body {
   grid-template-rows: min-content 1fr min-content;
   font-family: "SF Pro Display", "Arial", sans-serif;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 19.6px;
   font-weight: 400;
   min-width: 360px;
   min-height: 100%;
@@ -34,4 +34,9 @@ input[type="radio"].visually-hidden {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.wrapper {
+  padding-left: 10px;
+  padding-right: 10px;
 }

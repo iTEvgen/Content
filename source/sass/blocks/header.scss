@@ -4,12 +4,14 @@
   max-width: 522px;
   min-height: 50px;
   margin-top: 20px;
+  margin-bottom: 60px;
   padding: 0 10px;
   box-sizing: border-box;
 
   @media (min-width: 520px) {
     width: 100%;
-    margin: 20px auto 0;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -30,7 +32,7 @@
 .nav-menu__header {
   display: grid;
   grid-template-columns: 50px 1fr 50px;
-  min-height: 50px;
+  min-height: 48px;
 }
 
 :is(.nav-menu__icon,
